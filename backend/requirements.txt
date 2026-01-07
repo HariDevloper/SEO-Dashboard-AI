@@ -1,0 +1,10 @@
+flask
+flask-cors
+requests
+beautifulsoup4
+textblob
+textstat
+scikit-learn
+reportlab
+lxml
+urllib3
