@@ -291,8 +291,7 @@ function App() {
         <main className="results-area">
           {!loading && !result && !error && (
             <div className="empty-state">
-              <div className="empty-state-icon">🔍</div>
-              <h2 className="empty-state-title">Ready to Analyze</h2>
+              <h2 className="empty-state-title">Ready to Analyze?</h2>
               <p className="empty-state-text">
                 Enter a website URL above and click "Analyze" to start your SEO audit
               </p>
