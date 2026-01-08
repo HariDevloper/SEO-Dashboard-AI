@@ -51,7 +51,7 @@ function App() {
   const [activeTab, setActiveTab] = useState("overview");
   const [loadingProgress, setLoadingProgress] = useState("");
 
-  const API_BASE = "http://127.0.0.1:5000/api";
+  const API_BASE = "https://seo-dashboard-ai-1.onrender.com";
 
   const runAudit = async () => {
     if (!url) {
